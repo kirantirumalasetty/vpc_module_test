@@ -10,7 +10,7 @@ terraform {
     bucket = "krn-remote-state"
     key    = "expense-vpcc"
     region = "us-east-1"
-    dynamodb_table = "81s-locking"
+    dynamodb_table = "state-locking"
   }
 }
 
